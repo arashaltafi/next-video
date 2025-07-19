@@ -1,7 +1,7 @@
 "use client"
 
+import AuthenticationVideo from '@/components/AuthenticationVideo';
 import React, { useState } from 'react'
-import AuthenticationVideo from '../components/AuthenticationVideo'
 
 const CaptureSample = () => {
     const [formData, setFormData] = useState<FormData | null>(null);

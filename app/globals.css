@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.icon-music {
+  @apply text-xl hover:text-rose-500 hover:scale-125 active:scale-90 cursor-pointer transition-all duration-200;
+}

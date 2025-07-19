@@ -14,7 +14,7 @@ export default function Home() {
           href={"/customPlayer"}
           className="text-3xl bg-red-500 hover:bg-red-600 transition-all rounded-lg px-4 py-2"
         >
-          zoom
+          customPlayer
         </Link>
 
         <Link
