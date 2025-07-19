@@ -6,7 +6,7 @@ export default function QualityPage() {
     const videoRef = useRef<HTMLVideoElement>(null);
     const setSrc = (q: "sd" | "hd") => {
         if (videoRef.current) {
-            videoRef.current.src = `/sample-${q}.mp4`;
+            videoRef.current.src = `https://arashaltafi.ir/url_sample/mp4.mp4`;
             videoRef.current.load();
             videoRef.current.play();
         }
@@ -23,7 +23,7 @@ export default function QualityPage() {
                 ref={videoRef}
                 className="w-full max-w-2xl border rounded"
                 controls
-                src="/sample-sd.mp4"
+                src="https://arashaltafi.ir/url_sample/mp4.mp4"
             />
         </div>
     );

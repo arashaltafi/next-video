@@ -18,13 +18,6 @@ export default function Home() {
         </Link>
 
         <Link
-          href={"/crop"}
-          className="text-3xl bg-green-500 hover:bg-green-600 transition-all rounded-lg px-4 py-2"
-        >
-          crop
-        </Link>
-
-        <Link
           href={"/style"}
           className="text-center text-3xl bg-blue-500 hover:bg-blue-600 transition-all rounded-lg px-4 py-2"
         >
@@ -36,6 +29,13 @@ export default function Home() {
           className="text-3xl bg-yellow-500 hover:bg-yellow-600 transition-all rounded-lg px-4 py-2"
         >
           quality
+        </Link>
+
+        <Link
+          href={"/nextVideo"}
+          className="text-3xl bg-teal-500 hover:bg-teal-600 transition-all rounded-lg px-4 py-2"
+        >
+          nextVideo
         </Link>
       </div>
     </div>

@@ -1,9 +1,9 @@
 "use client";
 import { useState, useRef } from "react";
 
-const playlist = ["/samp1.mp4", "/samp2.mp4", "/samp3.mp4"];
-
 export default function NextVideoPage() {
+  const playlist = ["https://arashaltafi.ir/url_sample/mp4.mp4", "https://arashaltafi.ir/url_sample/mp4.mp4", "https://arashaltafi.ir/url_sample/mp4.mp4"];
+
   const [idx, setIdx] = useState(0);
   const ref = useRef<HTMLVideoElement>(null);
 
@@ -14,8 +14,8 @@ export default function NextVideoPage() {
   };
 
   return (
-    <div className="p-6">
-      <h1 className="text-xl font-bold mb-4">Playlist</h1>
+        <div className="p-6 w-full h-screen flex items-center justify-center flex-col gap-12">
+      <h1 className="text-5xl font-bold">Playlist</h1>
       <video
         ref={ref}
         src={playlist[idx]}
